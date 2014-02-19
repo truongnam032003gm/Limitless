@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6942E018B48D09004FCE46 /* begin.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6942DE18B48D09004FCE46 /* begin.png */; };
+		FA6942E118B48D09004FCE46 /* begin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6942DF18B48D09004FCE46 /* begin@2x.png */; };
+		FA6942E418B48E3E004FCE46 /* Math-Master.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6942E218B48E3E004FCE46 /* Math-Master.png */; };
+		FA6942E518B48E3E004FCE46 /* Math-Master@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6942E318B48E3E004FCE46 /* Math-Master@2x.png */; };
+		FA6942E818B48F2C004FCE46 /* UIFacetory.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6942E718B48F2C004FCE46 /* UIFacetory.m */; };
+		FA6942F118B49C0D004FCE46 /* PlayScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6942F018B49C0D004FCE46 /* PlayScreenViewController.m */; };
+		FA6942F418B49DA0004FCE46 /* bg_playscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA6942F218B49DA0004FCE46 /* bg_playscreen.jpg */; };
+		FA6942F518B49DA0004FCE46 /* bg_playscreen@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA6942F318B49DA0004FCE46 /* bg_playscreen@2x.jpg */; };
+		FA6942F918B4A13D004FCE46 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6942F818B4A13D004FCE46 /* CountDownViewController.m */; };
+		FA6942FC18B4A6C4004FCE46 /* bg_calculator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA6942FA18B4A6C4004FCE46 /* bg_calculator.jpg */; };
+		FA6942FD18B4A6C4004FCE46 /* bg_calculator@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA6942FB18B4A6C4004FCE46 /* bg_calculator@2x.jpg */; };
+		FA69430118B4A86E004FCE46 /* entry.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6942FF18B4A86E004FCE46 /* entry.png */; };
+		FA69430218B4A86E004FCE46 /* entry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430018B4A86E004FCE46 /* entry@2x.png */; };
+		FA69430518B4B078004FCE46 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430318B4B078004FCE46 /* 0.png */; };
+		FA69430618B4B078004FCE46 /* 0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430418B4B078004FCE46 /* 0@2x.png */; };
+		FA69431918B4BA07004FCE46 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430718B4BA07004FCE46 /* 1.png */; };
+		FA69431A18B4BA07004FCE46 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430818B4BA07004FCE46 /* 1@2x.png */; };
+		FA69431B18B4BA07004FCE46 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430918B4BA07004FCE46 /* 2.png */; };
+		FA69431C18B4BA07004FCE46 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430A18B4BA07004FCE46 /* 2@2x.png */; };
+		FA69431D18B4BA07004FCE46 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430B18B4BA07004FCE46 /* 3.png */; };
+		FA69431E18B4BA07004FCE46 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430C18B4BA07004FCE46 /* 3@2x.png */; };
+		FA69431F18B4BA07004FCE46 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430D18B4BA07004FCE46 /* 4.png */; };
+		FA69432018B4BA07004FCE46 /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430E18B4BA07004FCE46 /* 4@2x.png */; };
+		FA69432118B4BA07004FCE46 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69430F18B4BA07004FCE46 /* 5.png */; };
+		FA69432218B4BA07004FCE46 /* 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431018B4BA07004FCE46 /* 5@2x.png */; };
+		FA69432318B4BA07004FCE46 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431118B4BA07004FCE46 /* 6.png */; };
+		FA69432418B4BA07004FCE46 /* 6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431218B4BA07004FCE46 /* 6@2x.png */; };
+		FA69432518B4BA07004FCE46 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431318B4BA07004FCE46 /* 7.png */; };
+		FA69432618B4BA07004FCE46 /* 7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431418B4BA07004FCE46 /* 7@2x.png */; };
+		FA69432718B4BA07004FCE46 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431518B4BA07004FCE46 /* 8.png */; };
+		FA69432818B4BA07004FCE46 /* 8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431618B4BA07004FCE46 /* 8@2x.png */; };
+		FA69432918B4BA07004FCE46 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431718B4BA07004FCE46 /* 9.png */; };
+		FA69432A18B4BA07004FCE46 /* 9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69431818B4BA07004FCE46 /* 9@2x.png */; };
+		FA69433118B4BBBB004FCE46 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69432F18B4BBBB004FCE46 /* clear.png */; };
+		FA69433218B4BBBB004FCE46 /* clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69433018B4BBBB004FCE46 /* clear@2x.png */; };
+		FA69434318B4BFD6004FCE46 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69433F18B4BFD6004FCE46 /* 10.png */; };
+		FA69434418B4BFD6004FCE46 /* 10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69434018B4BFD6004FCE46 /* 10@2x.png */; };
+		FA69434518B4BFD6004FCE46 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69434118B4BFD6004FCE46 /* 11.png */; };
+		FA69434618B4BFD6004FCE46 /* 11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA69434218B4BFD6004FCE46 /* 11@2x.png */; };
+		FAF85F7118B3674C00773A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF85F7018B3674C00773A7A /* Foundation.framework */; };
+		FAF85F7318B3674C00773A7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF85F7218B3674C00773A7A /* CoreGraphics.framework */; };
+		FAF85F7518B3674C00773A7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF85F7418B3674C00773A7A /* UIKit.framework */; };
+		FAF85F7B18B3674C00773A7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF85F7918B3674C00773A7A /* InfoPlist.strings */; };
+		FAF85F7D18B3674C00773A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF85F7C18B3674C00773A7A /* main.m */; };
+		FAF85F8118B3674C00773A7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF85F8018B3674C00773A7A /* AppDelegate.m */; };
+		FAF85F8318B3674C00773A7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF85F8218B3674C00773A7A /* Images.xcassets */; };
+		FAF85F8A18B3674C00773A7A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF85F8918B3674C00773A7A /* XCTest.framework */; };
+		FAF85F8B18B3674C00773A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF85F7018B3674C00773A7A /* Foundation.framework */; };
+		FAF85F8C18B3674C00773A7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF85F7418B3674C00773A7A /* UIKit.framework */; };
+		FAF85F9418B3674C00773A7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF85F9218B3674C00773A7A /* InfoPlist.strings */; };
+		FAF85F9618B3674C00773A7A /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF85F9518B3674C00773A7A /* CalculatorTests.m */; };
+		FAF85FA218B3676200773A7A /* CoreGUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF85FA118B3676200773A7A /* CoreGUIController.m */; };
+		FAF85FAA18B36AB600773A7A /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF85FA918B36AB600773A7A /* MyViewController.m */; };
+		FAF85FAE18B36B1700773A7A /* MainScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF85FAD18B36B1700773A7A /* MainScreenController.m */; };
+		FAF85FB018B3729800773A7A /* Mental-Math-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF85FAF18B3729800773A7A /* Mental-Math-Background.jpg */; };
+		FAF85FB218B3746600773A7A /* Mental-Math-Background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAF85FB118B3746600773A7A /* Mental-Math-Background@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF85F8D18B3674C00773A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF85F6518B3674C00773A7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF85F6C18B3674C00773A7A;
+			remoteInfo = Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6942DE18B48D09004FCE46 /* begin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = begin.png; path = Res/Images/begin.png; sourceTree = "<group>"; };
+		FA6942DF18B48D09004FCE46 /* begin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "begin@2x.png"; path = "Res/Images/begin@2x.png"; sourceTree = "<group>"; };
+		FA6942E218B48E3E004FCE46 /* Math-Master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Math-Master.png"; path = "Res/Images/Math-Master.png"; sourceTree = "<group>"; };
+		FA6942E318B48E3E004FCE46 /* Math-Master@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Math-Master@2x.png"; path = "Res/Images/Math-Master@2x.png"; sourceTree = "<group>"; };
+		FA6942E618B48F2C004FCE46 /* UIFacetory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFacetory.h; sourceTree = "<group>"; };
+		FA6942E718B48F2C004FCE46 /* UIFacetory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFacetory.m; sourceTree = "<group>"; };
+		FA6942EF18B49C0D004FCE46 /* PlayScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayScreenViewController.h; sourceTree = "<group>"; };
+		FA6942F018B49C0D004FCE46 /* PlayScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayScreenViewController.m; sourceTree = "<group>"; };
+		FA6942F218B49DA0004FCE46 /* bg_playscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg_playscreen.jpg; path = Res/Images/bg_playscreen.jpg; sourceTree = "<group>"; };
+		FA6942F318B49DA0004FCE46 /* bg_playscreen@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bg_playscreen@2x.jpg"; path = "Res/Images/bg_playscreen@2x.jpg"; sourceTree = "<group>"; };
+		FA6942F718B4A13D004FCE46 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		FA6942F818B4A13D004FCE46 /* CountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		FA6942FA18B4A6C4004FCE46 /* bg_calculator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg_calculator.jpg; path = Res/Images/bg_calculator.jpg; sourceTree = "<group>"; };
+		FA6942FB18B4A6C4004FCE46 /* bg_calculator@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bg_calculator@2x.jpg"; path = "Res/Images/bg_calculator@2x.jpg"; sourceTree = "<group>"; };
+		FA6942FF18B4A86E004FCE46 /* entry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = entry.png; path = Res/Images/Calculator/entry.png; sourceTree = "<group>"; };
+		FA69430018B4A86E004FCE46 /* entry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "entry@2x.png"; path = "Res/Images/Calculator/entry@2x.png"; sourceTree = "<group>"; };
+		FA69430318B4B078004FCE46 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = Res/Images/Calculator/0.png; sourceTree = "<group>"; };
+		FA69430418B4B078004FCE46 /* 0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0@2x.png"; path = "Res/Images/Calculator/0@2x.png"; sourceTree = "<group>"; };
+		FA69430718B4BA07004FCE46 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = Res/Images/Calculator/1.png; sourceTree = "<group>"; };
+		FA69430818B4BA07004FCE46 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1@2x.png"; path = "Res/Images/Calculator/1@2x.png"; sourceTree = "<group>"; };
+		FA69430918B4BA07004FCE46 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = Res/Images/Calculator/2.png; sourceTree = "<group>"; };
+		FA69430A18B4BA07004FCE46 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2@2x.png"; path = "Res/Images/Calculator/2@2x.png"; sourceTree = "<group>"; };
+		FA69430B18B4BA07004FCE46 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = Res/Images/Calculator/3.png; sourceTree = "<group>"; };
+		FA69430C18B4BA07004FCE46 /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3@2x.png"; path = "Res/Images/Calculator/3@2x.png"; sourceTree = "<group>"; };
+		FA69430D18B4BA07004FCE46 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = Res/Images/Calculator/4.png; sourceTree = "<group>"; };
+		FA69430E18B4BA07004FCE46 /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4@2x.png"; path = "Res/Images/Calculator/4@2x.png"; sourceTree = "<group>"; };
+		FA69430F18B4BA07004FCE46 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = Res/Images/Calculator/5.png; sourceTree = "<group>"; };
+		FA69431018B4BA07004FCE46 /* 5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5@2x.png"; path = "Res/Images/Calculator/5@2x.png"; sourceTree = "<group>"; };
+		FA69431118B4BA07004FCE46 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = Res/Images/Calculator/6.png; sourceTree = "<group>"; };
+		FA69431218B4BA07004FCE46 /* 6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6@2x.png"; path = "Res/Images/Calculator/6@2x.png"; sourceTree = "<group>"; };
+		FA69431318B4BA07004FCE46 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = Res/Images/Calculator/7.png; sourceTree = "<group>"; };
+		FA69431418B4BA07004FCE46 /* 7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7@2x.png"; path = "Res/Images/Calculator/7@2x.png"; sourceTree = "<group>"; };
+		FA69431518B4BA07004FCE46 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = Res/Images/Calculator/8.png; sourceTree = "<group>"; };
+		FA69431618B4BA07004FCE46 /* 8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8@2x.png"; path = "Res/Images/Calculator/8@2x.png"; sourceTree = "<group>"; };
+		FA69431718B4BA07004FCE46 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9.png; path = Res/Images/Calculator/9.png; sourceTree = "<group>"; };
+		FA69431818B4BA07004FCE46 /* 9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "9@2x.png"; path = "Res/Images/Calculator/9@2x.png"; sourceTree = "<group>"; };
+		FA69432F18B4BBBB004FCE46 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clear.png; path = Res/Images/Calculator/clear.png; sourceTree = "<group>"; };
+		FA69433018B4BBBB004FCE46 /* clear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clear@2x.png"; path = "Res/Images/Calculator/clear@2x.png"; sourceTree = "<group>"; };
+		FA69433F18B4BFD6004FCE46 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10.png; path = Res/Images/Calculator/10.png; sourceTree = "<group>"; };
+		FA69434018B4BFD6004FCE46 /* 10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "10@2x.png"; path = "Res/Images/Calculator/10@2x.png"; sourceTree = "<group>"; };
+		FA69434118B4BFD6004FCE46 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11.png; path = Res/Images/Calculator/11.png; sourceTree = "<group>"; };
+		FA69434218B4BFD6004FCE46 /* 11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "11@2x.png"; path = "Res/Images/Calculator/11@2x.png"; sourceTree = "<group>"; };
+		FAF85F6D18B3674C00773A7A /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF85F7018B3674C00773A7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAF85F7218B3674C00773A7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAF85F7418B3674C00773A7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAF85F7818B3674C00773A7A /* Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
+		FAF85F7A18B3674C00773A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAF85F7C18B3674C00773A7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF85F7E18B3674C00773A7A /* Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		FAF85F7F18B3674C00773A7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF85F8018B3674C00773A7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF85F8218B3674C00773A7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF85F8818B3674C00773A7A /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF85F8918B3674C00773A7A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAF85F9118B3674C00773A7A /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		FAF85F9318B3674C00773A7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAF85F9518B3674C00773A7A /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		FAF85FA018B3676200773A7A /* CoreGUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGUIController.h; sourceTree = "<group>"; };
+		FAF85FA118B3676200773A7A /* CoreGUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGUIController.m; sourceTree = "<group>"; };
+		FAF85FA818B36AB600773A7A /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		FAF85FA918B36AB600773A7A /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		FAF85FAC18B36B1700773A7A /* MainScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenController.h; sourceTree = "<group>"; };
+		FAF85FAD18B36B1700773A7A /* MainScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenController.m; sourceTree = "<group>"; };
+		FAF85FAF18B3729800773A7A /* Mental-Math-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mental-Math-Background.jpg"; path = "Res/Images/Mental-Math-Background.jpg"; sourceTree = "<group>"; };
+		FAF85FB118B3746600773A7A /* Mental-Math-Background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Mental-Math-Background@2x.jpg"; path = "Res/Images/Mental-Math-Background@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF85F6A18B3674C00773A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF85F7318B3674C00773A7A /* CoreGraphics.framework in Frameworks */,
+				FAF85F7518B3674C00773A7A /* UIKit.framework in Frameworks */,
+				FAF85F7118B3674C00773A7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF85F8518B3674C00773A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF85F8A18B3674C00773A7A /* XCTest.framework in Frameworks */,
+				FAF85F8C18B3674C00773A7A /* UIKit.framework in Frameworks */,
+				FAF85F8B18B3674C00773A7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6942EE18B49BFC004FCE46 /* PlayScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA6942EF18B49C0D004FCE46 /* PlayScreenViewController.h */,
+				FA6942F018B49C0D004FCE46 /* PlayScreenViewController.m */,
+			);
+			name = PlayScreen;
+			sourceTree = "<group>";
+		};
+		FA6942F618B4A125004FCE46 /* CoolDownViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA6942F718B4A13D004FCE46 /* CountDownViewController.h */,
+				FA6942F818B4A13D004FCE46 /* CountDownViewController.m */,
+			);
+			name = CoolDownViewController;
+			sourceTree = "<group>";
+		};
+		FA6942FE18B4A864004FCE46 /* calculator */ = {
+			isa = PBXGroup;
+			children = (
+				FA69433F18B4BFD6004FCE46 /* 10.png */,
+				FA69434018B4BFD6004FCE46 /* 10@2x.png */,
+				FA69434118B4BFD6004FCE46 /* 11.png */,
+				FA69434218B4BFD6004FCE46 /* 11@2x.png */,
+				FA69432F18B4BBBB004FCE46 /* clear.png */,
+				FA69433018B4BBBB004FCE46 /* clear@2x.png */,
+				FA69430718B4BA07004FCE46 /* 1.png */,
+				FA69430818B4BA07004FCE46 /* 1@2x.png */,
+				FA69430918B4BA07004FCE46 /* 2.png */,
+				FA69430A18B4BA07004FCE46 /* 2@2x.png */,
+				FA69430B18B4BA07004FCE46 /* 3.png */,
+				FA69430C18B4BA07004FCE46 /* 3@2x.png */,
+				FA69430D18B4BA07004FCE46 /* 4.png */,
+				FA69430E18B4BA07004FCE46 /* 4@2x.png */,
+				FA69430F18B4BA07004FCE46 /* 5.png */,
+				FA69431018B4BA07004FCE46 /* 5@2x.png */,
+				FA69431118B4BA07004FCE46 /* 6.png */,
+				FA69431218B4BA07004FCE46 /* 6@2x.png */,
+				FA69431318B4BA07004FCE46 /* 7.png */,
+				FA69431418B4BA07004FCE46 /* 7@2x.png */,
+				FA69431518B4BA07004FCE46 /* 8.png */,
+				FA69431618B4BA07004FCE46 /* 8@2x.png */,
+				FA69431718B4BA07004FCE46 /* 9.png */,
+				FA69431818B4BA07004FCE46 /* 9@2x.png */,
+				FA69430318B4B078004FCE46 /* 0.png */,
+				FA69430418B4B078004FCE46 /* 0@2x.png */,
+				FA6942FF18B4A86E004FCE46 /* entry.png */,
+				FA69430018B4A86E004FCE46 /* entry@2x.png */,
+			);
+			name = calculator;
+			sourceTree = "<group>";
+		};
+		FAF85F6418B3674C00773A7A = {
+			isa = PBXGroup;
+			children = (
+				FAF85F7618B3674C00773A7A /* Calculator */,
+				FAF85F8F18B3674C00773A7A /* CalculatorTests */,
+				FAF85F6F18B3674C00773A7A /* Frameworks */,
+				FAF85F6E18B3674C00773A7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF85F6E18B3674C00773A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF85F6D18B3674C00773A7A /* Calculator.app */,
+				FAF85F8818B3674C00773A7A /* CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF85F6F18B3674C00773A7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF85F7018B3674C00773A7A /* Foundation.framework */,
+				FAF85F7218B3674C00773A7A /* CoreGraphics.framework */,
+				FAF85F7418B3674C00773A7A /* UIKit.framework */,
+				FAF85F8918B3674C00773A7A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF85F7618B3674C00773A7A /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				FA6942F618B4A125004FCE46 /* CoolDownViewController */,
+				FA6942EE18B49BFC004FCE46 /* PlayScreen */,
+				FAF85FAB18B36B0400773A7A /* MainScreen */,
+				FAF85F9F18B3675100773A7A /* Utility */,
+				FAF85F7F18B3674C00773A7A /* AppDelegate.h */,
+				FAF85F8018B3674C00773A7A /* AppDelegate.m */,
+				FAF85F8218B3674C00773A7A /* Images.xcassets */,
+				FAF85F7718B3674C00773A7A /* Supporting Files */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		FAF85F7718B3674C00773A7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF85FA718B36A8500773A7A /* Res */,
+				FAF85F7818B3674C00773A7A /* Calculator-Info.plist */,
+				FAF85F7918B3674C00773A7A /* InfoPlist.strings */,
+				FAF85F7C18B3674C00773A7A /* main.m */,
+				FAF85F7E18B3674C00773A7A /* Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF85F8F18B3674C00773A7A /* CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF85F9518B3674C00773A7A /* CalculatorTests.m */,
+				FAF85F9018B3674C00773A7A /* Supporting Files */,
+			);
+			path = CalculatorTests;
+			sourceTree = "<group>";
+		};
+		FAF85F9018B3674C00773A7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF85F9118B3674C00773A7A /* CalculatorTests-Info.plist */,
+				FAF85F9218B3674C00773A7A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF85F9F18B3675100773A7A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FAF85FA018B3676200773A7A /* CoreGUIController.h */,
+				FAF85FA118B3676200773A7A /* CoreGUIController.m */,
+				FAF85FA818B36AB600773A7A /* MyViewController.h */,
+				FAF85FA918B36AB600773A7A /* MyViewController.m */,
+				FA6942E618B48F2C004FCE46 /* UIFacetory.h */,
+				FA6942E718B48F2C004FCE46 /* UIFacetory.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		FAF85FA718B36A8500773A7A /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				FA6942FE18B4A864004FCE46 /* calculator */,
+				FA6942FA18B4A6C4004FCE46 /* bg_calculator.jpg */,
+				FA6942FB18B4A6C4004FCE46 /* bg_calculator@2x.jpg */,
+				FA6942F218B49DA0004FCE46 /* bg_playscreen.jpg */,
+				FA6942F318B49DA0004FCE46 /* bg_playscreen@2x.jpg */,
+				FA6942E218B48E3E004FCE46 /* Math-Master.png */,
+				FA6942E318B48E3E004FCE46 /* Math-Master@2x.png */,
+				FA6942DE18B48D09004FCE46 /* begin.png */,
+				FA6942DF18B48D09004FCE46 /* begin@2x.png */,
+				FAF85FB118B3746600773A7A /* Mental-Math-Background@2x.jpg */,
+				FAF85FAF18B3729800773A7A /* Mental-Math-Background.jpg */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+		FAF85FAB18B36B0400773A7A /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FAF85FAC18B36B1700773A7A /* MainScreenController.h */,
+				FAF85FAD18B36B1700773A7A /* MainScreenController.m */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF85F6C18B3674C00773A7A /* Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF85F9918B3674C00773A7A /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildPhases = (
+				FAF85F6918B3674C00773A7A /* Sources */,
+				FAF85F6A18B3674C00773A7A /* Frameworks */,
+				FAF85F6B18B3674C00773A7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calculator;
+			productName = Calculator;
+			productReference = FAF85F6D18B3674C00773A7A /* Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF85F8718B3674C00773A7A /* CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF85F9C18B3674C00773A7A /* Build configuration list for PBXNativeTarget "CalculatorTests" */;
+			buildPhases = (
+				FAF85F8418B3674C00773A7A /* Sources */,
+				FAF85F8518B3674C00773A7A /* Frameworks */,
+				FAF85F8618B3674C00773A7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF85F8E18B3674C00773A7A /* PBXTargetDependency */,
+			);
+			name = CalculatorTests;
+			productName = CalculatorTests;
+			productReference = FAF85F8818B3674C00773A7A /* CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF85F6518B3674C00773A7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nam Truong";
+				TargetAttributes = {
+					FAF85F8718B3674C00773A7A = {
+						TestTargetID = FAF85F6C18B3674C00773A7A;
+					};
+				};
+			};
+			buildConfigurationList = FAF85F6818B3674C00773A7A /* Build configuration list for PBXProject "Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF85F6418B3674C00773A7A;
+			productRefGroup = FAF85F6E18B3674C00773A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF85F6C18B3674C00773A7A /* Calculator */,
+				FAF85F8718B3674C00773A7A /* CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF85F6B18B3674C00773A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA69432918B4BA07004FCE46 /* 9.png in Resources */,
+				FA69432718B4BA07004FCE46 /* 8.png in Resources */,
+				FA69434318B4BFD6004FCE46 /* 10.png in Resources */,
+				FA69434418B4BFD6004FCE46 /* 10@2x.png in Resources */,
+				FA69433218B4BBBB004FCE46 /* clear@2x.png in Resources */,
+				FA69431A18B4BA07004FCE46 /* 1@2x.png in Resources */,
+				FAF85F7B18B3674C00773A7A /* InfoPlist.strings in Resources */,
+				FA69431918B4BA07004FCE46 /* 1.png in Resources */,
+				FA69432318B4BA07004FCE46 /* 6.png in Resources */,
+				FA6942FC18B4A6C4004FCE46 /* bg_calculator.jpg in Resources */,
+				FA69432218B4BA07004FCE46 /* 5@2x.png in Resources */,
+				FA6942F518B49DA0004FCE46 /* bg_playscreen@2x.jpg in Resources */,
+				FA69432418B4BA07004FCE46 /* 6@2x.png in Resources */,
+				FA69434518B4BFD6004FCE46 /* 11.png in Resources */,
+				FAF85FB018B3729800773A7A /* Mental-Math-Background.jpg in Resources */,
+				FA6942E518B48E3E004FCE46 /* Math-Master@2x.png in Resources */,
+				FA69431C18B4BA07004FCE46 /* 2@2x.png in Resources */,
+				FA69430618B4B078004FCE46 /* 0@2x.png in Resources */,
+				FA69432618B4BA07004FCE46 /* 7@2x.png in Resources */,
+				FA69432018B4BA07004FCE46 /* 4@2x.png in Resources */,
+				FA69433118B4BBBB004FCE46 /* clear.png in Resources */,
+				FA6942F418B49DA0004FCE46 /* bg_playscreen.jpg in Resources */,
+				FA69432118B4BA07004FCE46 /* 5.png in Resources */,
+				FA69430518B4B078004FCE46 /* 0.png in Resources */,
+				FAF85F8318B3674C00773A7A /* Images.xcassets in Resources */,
+				FA69431D18B4BA07004FCE46 /* 3.png in Resources */,
+				FA69432518B4BA07004FCE46 /* 7.png in Resources */,
+				FA69430118B4A86E004FCE46 /* entry.png in Resources */,
+				FAF85FB218B3746600773A7A /* Mental-Math-Background@2x.jpg in Resources */,
+				FA69432A18B4BA07004FCE46 /* 9@2x.png in Resources */,
+				FA69430218B4A86E004FCE46 /* entry@2x.png in Resources */,
+				FA69431E18B4BA07004FCE46 /* 3@2x.png in Resources */,
+				FA69434618B4BFD6004FCE46 /* 11@2x.png in Resources */,
+				FA6942E118B48D09004FCE46 /* begin@2x.png in Resources */,
+				FA69431F18B4BA07004FCE46 /* 4.png in Resources */,
+				FA6942E418B48E3E004FCE46 /* Math-Master.png in Resources */,
+				FA69431B18B4BA07004FCE46 /* 2.png in Resources */,
+				FA69432818B4BA07004FCE46 /* 8@2x.png in Resources */,
+				FA6942E018B48D09004FCE46 /* begin.png in Resources */,
+				FA6942FD18B4A6C4004FCE46 /* bg_calculator@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF85F8618B3674C00773A7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF85F9418B3674C00773A7A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF85F6918B3674C00773A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6942E818B48F2C004FCE46 /* UIFacetory.m in Sources */,
+				FA6942F118B49C0D004FCE46 /* PlayScreenViewController.m in Sources */,
+				FAF85F8118B3674C00773A7A /* AppDelegate.m in Sources */,
+				FAF85FA218B3676200773A7A /* CoreGUIController.m in Sources */,
+				FA6942F918B4A13D004FCE46 /* CountDownViewController.m in Sources */,
+				FAF85FAE18B36B1700773A7A /* MainScreenController.m in Sources */,
+				FAF85FAA18B36AB600773A7A /* MyViewController.m in Sources */,
+				FAF85F7D18B3674C00773A7A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF85F8418B3674C00773A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF85F9618B3674C00773A7A /* CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF85F8E18B3674C00773A7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF85F6C18B3674C00773A7A /* Calculator */;
+			targetProxy = FAF85F8D18B3674C00773A7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF85F7918B3674C00773A7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF85F7A18B3674C00773A7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAF85F9218B3674C00773A7A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF85F9318B3674C00773A7A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF85F9718B3674C00773A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF85F9818B3674C00773A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF85F9A18B3674C00773A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAF85F9B18B3674C00773A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAF85F9D18B3674C00773A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CalculatorTests/CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAF85F9E18B3674C00773A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calculator.app/Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
+				INFOPLIST_FILE = "CalculatorTests/CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF85F6818B3674C00773A7A /* Build configuration list for PBXProject "Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF85F9718B3674C00773A7A /* Debug */,
+				FAF85F9818B3674C00773A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF85F9918B3674C00773A7A /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF85F9A18B3674C00773A7A /* Debug */,
+				FAF85F9B18B3674C00773A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF85F9C18B3674C00773A7A /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF85F9D18B3674C00773A7A /* Debug */,
+				FAF85F9E18B3674C00773A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF85F6518B3674C00773A7A /* Project object */;
+}
